@@ -17,7 +17,7 @@ eventHandler.on("ready", () => {
       description: "test", // Command description
       options: [ ], // Options (Optional)
     },
-    (callback = (client, interaction, args) => {
+    (callback = (client, interaction, args) => { // Callback (Has to be function)
         interaction.reply("Pong!"); // Reply
     })
   );
