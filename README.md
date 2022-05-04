@@ -1,6 +1,6 @@
 ﻿# discord.js-enhanced
 
-#Setup
+# Setup
 
 ```javascript
 const { Client, SlashCommand } = require("discord.js-enhanced"); // Require everything we will need.
